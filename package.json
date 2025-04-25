@@ -1,0 +1,27 @@
+{
+  "name": "langgraph-agent",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev --turbopack",
+    "lint": "next lint",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@langchain/anthropic": "^0.3.18",
+    "@langchain/core": "^0.3.48",
+    "@langchain/langgraph": "^0.2.66",
+    "next": "15.3.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sst": "3.13.18"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "22.14.1",
+    "@types/react": "19.1.2",
+    "tailwindcss": "^4",
+    "typescript": "5.8.3"
+  }
+}
